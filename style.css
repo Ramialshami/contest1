@@ -91,7 +91,7 @@ ul a {
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;
-    background-position: 0 -400px;
+    background-position: 0 -200px;
     min-height: 1000px;
 }
 
@@ -109,8 +109,8 @@ ul a {
 
 .waves {
     width: 90%;
-    margin-left: -500px;
-    margin-bottom: -150px;
+    margin-left: -300px;
+    margin-bottom: -50px;
 }
 
 .hero-data-div h1 {
@@ -156,9 +156,9 @@ ul a {
 
 .hero-img1 {
     position: absolute;
-    width: 120%;
+    width: 100%;
     top: -50px;
-    left: 0;
+    right: -50px;
 }
 
 .hero-img2 {
@@ -184,7 +184,20 @@ ul a {
     background-repeat: no-repeat;
     background-position: 100% 0;
 }
+.feature {
+    max-width: 33%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    color: #cc66d5;
+}
 
+.feature img {
+    width: 60%;
+}
 .feature1 {
     align-self: start;
 }
@@ -219,20 +232,7 @@ ul a {
     font-size: 30px;
 }
 
-.feature {
-    max-width: 33%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    gap: 10px;
-    color: #cc66d5;
-}
 
-.feature img {
-    width: 60%;
-}
 
 /* Start Slider Style */
 .slider {
