@@ -1,0 +1,352 @@
+@font-face {
+    font-family: cobblersans;
+    src: url(CobblerSans-Regular.ttf);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: cobblersans;
+    transition: all 0.4s;
+}
+
+.container {
+    width: 1400px;
+    margin: auto;
+}
+
+/* Start Header Style */
+header {
+    background-color: #E5F4FB;
+    position: sticky;
+    top: 0;
+    padding: 10px 0;
+    z-index: 100000;
+}
+
+.header-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    list-style: none;
+    font-size: 18px;
+    gap: 30px
+}
+
+ul a {
+    text-decoration: none;
+    color: #5F72BE;
+    padding: 10px 0;
+}
+
+.menu-link:hover {
+    text-decoration: none;
+    color: #1d3069;
+    font-weight: bold;
+    border-bottom: 3px solid #4947bb;
+}
+
+.menu-link1 {
+    text-decoration: none;
+    color: #1d3069;
+    font-weight: bold;
+    border-bottom: 3px solid #4947bb;
+}
+
+.logo {
+    width: 70px;
+    margin-right: 30px;
+}
+
+.login {
+    text-decoration: none;
+    background-color: white;
+    border-radius: 50px;
+    padding: 8px 30px;
+    transition: all 0.5s;
+}
+
+.login:hover {
+    background-color: #174369;
+    color: white;
+    transform: scale(1.1);
+}
+
+/* End Header Style */
+
+/* Start Hero Style */
+.hero {
+    background: url('images/blue_bg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    background-position: 0 -400px;
+    min-height: 1000px;
+}
+
+.hero-div {
+    display: flex;
+}
+
+.hero-data-div {
+    width: 50%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.waves {
+    width: 90%;
+    margin-left: -500px;
+    margin-bottom: -150px;
+}
+
+.hero-data-div h1 {
+    font-size: 60px;
+    color: #7688cf;
+}
+
+.hero-data-div span {
+    font-weight: 900;
+    color: #7a0ea5;
+    animation-name: span1;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+}
+
+@keyframes span1 {
+    0% {
+        color: #fa6f6f;
+    }
+
+    100% {
+        color: #8118b3;
+    }
+
+
+}
+
+.hero-data-div p {
+    font-size: 30px;
+    margin-top: 20px;
+    color: #5F72BE;
+}
+
+.hero-img-div {
+    width: 50%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hero-img1 {
+    position: absolute;
+    width: 120%;
+    top: -50px;
+    left: 0;
+}
+
+.hero-img2 {
+    position: absolute;
+    left: 200px;
+    top: -0;
+    width: 50%;
+}
+
+.hero-img3 {
+    position: absolute;
+    top: 400px;
+}
+
+/* End Hero Style */
+.feature-div {
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    background-image: url(images/second_section_.png);
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: 100% 0;
+}
+
+.feature1 {
+    align-self: start;
+}
+
+.feature3 {
+    align-self: end;
+}
+
+.why {
+    width: 30%;
+    height: 250px;
+    position: absolute;
+    bottom: 0;
+    left: 80px;
+    background-image: url(images/why_kudzoka_bg.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 0px;
+    color: white;
+    padding: 0 90px 20px;
+    transition: all 0.4s;
+}
+
+.why:hover {
+    transform: scale(1.1);
+}
+
+.why h3 {
+    font-size: 30px;
+}
+
+.feature {
+    max-width: 33%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    color: #cc66d5;
+}
+
+.feature img {
+    width: 60%;
+}
+
+/* Start Slider Style */
+.slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.round h3,
+.round p {
+    max-width: 230px;
+    margin-inline: auto;
+    text-align: center;
+    color: #5F72BE;
+}
+
+.round h3 {
+    font-size: 20px;
+}
+
+.round p {
+    margin-top: 20px;
+}
+
+/* End Slider Style */
+
+
+/* Start Footer Style */
+footer {
+    background: url("images/Group 1131.png") center no-repeat;
+    overflow: hidden;
+    background-position: 40% 35%;
+    background-size: 120%;
+}
+
+.footer-div {
+    display: flex;
+    align-items: flex-end;
+}
+
+.footer-cl1,
+footer-cl2 {
+    width: 50%;
+}
+
+.apps-div {
+    display: flex;
+    gap: 20px;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.apps-div a {
+    text-decoration: none;
+}
+
+.apps {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 12px;
+    transition: all 0.4s;
+}
+
+.apps:hover {
+    transform: scale(1.1);
+    box-shadow: 0 5px 10px 0 #1a319770;
+}
+
+.app-p2 {
+    font-weight: bold;
+}
+
+.apps img {
+    height: 25px;
+}
+
+.social-div {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.social-div img {
+    transition: all 0.4s;
+}
+
+.social-div img:hover {
+    transform: scale(1.1);
+}
+
+.footer-nav a {
+    color: white;
+    font-weight: 400;
+    transition: all 0.4s;
+}
+
+.footer-nav a:hover {
+    color: #33136d;
+    font-weight: bold;
+}
+
+.footer-nav ul {
+    margin-bottom: 20px;
+}
+
+.footer-img {
+    width: 800px;
+    margin: 0 -100px -10px 0;
+}
+
+/* End Footer Style */
