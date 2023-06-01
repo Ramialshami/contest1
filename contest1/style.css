@@ -12,8 +12,7 @@
 }
 
 .container {
-    width: 85vw;
-    max-width: 1200px;
+    width: 1400px;
     margin: auto;
 }
 
@@ -93,7 +92,7 @@ ul a {
     background-position: center;
     background-size: 100%;
     background-position: 0 -200px;
-    min-height: 100vh;
+    min-height: 1000px;
 }
 
 .hero-div {
@@ -111,7 +110,7 @@ ul a {
 .waves {
     width: 90%;
     margin-left: -300px;
-    margin-top: -30px;
+    margin-bottom: -50px;
 }
 
 .hero-data-div h1 {
@@ -158,9 +157,8 @@ ul a {
 .hero-img1 {
     position: absolute;
     width: 100%;
-    top: 10px;
+    top: -50px;
     right: -50px;
-
 }
 
 .hero-img2 {
@@ -172,25 +170,22 @@ ul a {
 
 .hero-img3 {
     position: absolute;
-    top: 350px;
+    top: 400px;
 }
 
 /* End Hero Style */
-.sec2 {
-    padding-top: 50px;
-}
 .feature-div {
     height: 700px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     position: relative;
     background-image: url(images/second_section_.png);
-    background-size: 85%;
+    background-size: 80%;
     background-repeat: no-repeat;
     background-position: 100% 0;
 }
 .feature {
-    max-width: 30%;
+    max-width: 33%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -216,7 +211,7 @@ ul a {
     height: 250px;
     position: absolute;
     bottom: 0;
-    left: 0;
+    left: 80px;
     background-image: url(images/why_kudzoka_bg.png);
     background-size: contain;
     background-repeat: no-repeat;
@@ -243,23 +238,9 @@ ul a {
 .slider {
     display: flex;
     justify-content: center;
-    align-items: end;
-    gap: 40px;
+    align-items: center;
     margin-top: 100px;
 }
-.slider .slide1 {
-    width: 25%;
-    margin-bottom: 60px;
-}
-.slider .slide2 {
-    width: 50%;
-}
-.slider .slide3 {
-    width: 25%;
-    margin-bottom: 30px;
-}
-
-
 
 .round h3,
 .round p {
@@ -294,7 +275,7 @@ footer {
 }
 
 .footer-cl1,
-.footer-cl2 {
+footer-cl2 {
     width: 50%;
 }
 
@@ -341,7 +322,6 @@ footer {
 }
 
 .social-div img {
-    transform: scale(0.8)
     transition: all 0.4s;
 }
 
@@ -365,8 +345,8 @@ footer {
 }
 
 .footer-img {
-    max-width: 110%;
-    margin: 0 0 -10px 0;
+    width: 800px;
+    margin: 0 -10px -10px 0;
 }
 
 /* End Footer Style */
